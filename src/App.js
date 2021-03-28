@@ -1,12 +1,13 @@
-import React, { Fragment, Component } from 'react';
+import React, { Component } from 'react';
+import Navbar from './components/layouts/Navbar';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Fragment>
-        <h1>Hello from App.js</h1>
-      </Fragment>
+      <nav className="navbar bg-primary">
+        <Navbar title="Github Finder" icon="fab fa-github" />
+      </nav>
     );
   }
 
