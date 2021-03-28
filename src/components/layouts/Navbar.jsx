@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-export class Navbar extends Component {
+class Navbar extends Component {
 
   // Default props if nothing is passed from App.js
   static defaultProps = {
@@ -16,9 +16,9 @@ export class Navbar extends Component {
 
   render() {
     return (
-      <div>
+      <nav className="navbar bg-primary">
         <h1><i className={this.props.icon} /> {this.props.title}</h1>
-      </div>
+      </nav>
     )
   }
 }
