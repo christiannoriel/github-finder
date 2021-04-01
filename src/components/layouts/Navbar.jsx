@@ -6,7 +6,7 @@ const Navbar = (props) => {
   const { icon, title } = props;
 
   return (
-    <nav className='navbar bg-primary'>
+    <nav className='navbar bg-success'>
       <h1>
         <i className={icon} /> {title}
       </h1>
